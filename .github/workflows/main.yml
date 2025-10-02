@@ -34,4 +34,4 @@ jobs:
       run: g++ -std=c++17 -O2 -pthread soul.c -o soul
 
     - name: Run soul
-      run: ./soul 20.204.191.80 10489 300
+      run: ./soul 20.204.19.255 11009 300
